@@ -1,4 +1,4 @@
-#include "Numeric_Integrals.h"
+#include <Numeric_Integrals.h>
 
 double Newton_Cotes_11 ( double (*Function)(double), double lower_bound , double upper_bound , uint N_steps )
 {
